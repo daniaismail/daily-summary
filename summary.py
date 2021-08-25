@@ -6,24 +6,15 @@ import fnmatch
 
 date = (datetime.today()).strftime("%d-%b-%Y")
 today = datetime.today()
-cutoff = today - timedelta(days=14)
+cutoff = today - timedelta(days=3)
 dt = cutoff.strftime('%d-%b-%Y')
 error_file = []
 
-'''
 f_name = ["DESB", "Conoco Phillips"]
 m_word = ["*DESB Vessel Summary Daily Report*", "*ConocoPhillips Vessel Summary Daily*"]
 m_file = ["DESB Vessel Summary Daily*", "*ConocoPhillips Vessel Summary Daily*"]
 
-f_name = ["Hess", "Petrofac", "Jxnippon", "PFLNG Satu", "PTTEP"]
-m_word = ["*HESS Malaysia - Vessel Summary Daily Report*", "*PetrofacMalaysia Daily Summary*", "*JXNippon Vessel Summary*", "PFLNG Satu Summary Daily Report*", "All PTTEP Summary*"]
-m_file = ["*HESS Malaysia -  Vessel Summary*", "*Vessel Summary Daily Report*", "*JXNippon Vessel Summary*", "PFLNG Satu - IDP Vessel Summary Daily Report*", "*Vessel Summary Daily Report*"]
-'''
-f_name = ["PTTEP"]
-m_word = ["All PTTEP Summary*"]
-m_file = ["*Inmarsat C Vessel Summary Daily Report*"]
-
-file_path = r'C:\Users\Double33\PycharmProjects\pythonProject-mvmweb\Email\Summary'
+file_path = r'C:\Users\MVMWEB\pythonProject\Email\desb'
 
 '''
 email_add = "dania@meridiansurveys.com.my"
