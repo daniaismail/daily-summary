@@ -6,7 +6,7 @@ import fnmatch
 
 date = (datetime.today()).strftime("%d-%b-%Y")
 today = datetime.today()
-cutoff = today - timedelta(days=14)
+cutoff = today - timedelta(days=7)
 dt = cutoff.strftime('%d-%b-%Y')
 error_file = []
 
@@ -21,14 +21,10 @@ m_file = ["*HESS Malaysia -  Vessel Summary*", "*Vessel Summary Daily Report*", 
 '''
 f_name = ["PTTEP"]
 m_word = ["All PTTEP Summary*"]
-m_file = ["*Inmarsat C Vessel Summary Daily Report*"]
+m_file = ["*PTTEP Vessel Summary Daily Report*"]
 
-file_path = r'C:\Users\Double33\PycharmProjects\pythonProject-mvmweb\Email\Summary'
+file_path = r'C:\Users\mvmwe\Dropbox\MVMCC\REPORT\WEEKLY\PETROFAC'
 
-'''
-email_add = "dania@meridiansurveys.com.my"
-password = "e*eM-@FfK$w*"
-'''
 email_add = "mvmcc@wild-geese-group.com"
 password = "s9nPviD\\"
 
