@@ -19,9 +19,9 @@ f_name = ["Hess", "Petrofac", "Jxnippon", "PFLNG Satu", "PTTEP"]
 m_word = ["*HESS Malaysia - Vessel Summary Daily Report*", "*PetrofacMalaysia Daily Summary*", "*JXNippon Vessel Summary*", "PFLNG Satu Summary Daily Report*", "All PTTEP Summary*"]
 m_file = ["*HESS Malaysia -  Vessel Summary*", "*Vessel Summary Daily Report*", "*JXNippon Vessel Summary*", "PFLNG Satu - IDP Vessel Summary Daily Report*", "*Vessel Summary Daily Report*"]
 '''
-f_name = ["PTTEP"]
-m_word = ["All PTTEP Summary*"]
-m_file = ["*PTTEP Vessel Summary Daily Report*"]
+f_name = ["DAILY SUMMARY"]
+m_word = ["PetrofacMalaysia Daily Summary*"]
+m_file = ["*PetrofacMalaysia - Vessel Summary Daily Report*"]
 
 file_path = r'C:\Users\mvmwe\Dropbox\MVMCC\REPORT\WEEKLY\PETROFAC'
 
